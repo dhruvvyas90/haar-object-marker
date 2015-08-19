@@ -75,7 +75,7 @@ else:
     if debug > 0:
         print list
     #creating window for frame and setting mouse callback
-    cv2.namedWindow('frame',cv2.WINDOW_NORMAL)
+    cv2.namedWindow('frame',cv2.WINDOW_AUTOSIZE)
     cv2.setMouseCallback('frame',obj_marker)
     #creating a file handle
     file_name = open(sys.argv[2],"w")
