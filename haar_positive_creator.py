@@ -104,3 +104,4 @@ else:
                 obj_count = 0
                 obj_list = []
     file_name.close()                                                           # end of the program; close the file
+cv2.destroyAllWindows()
